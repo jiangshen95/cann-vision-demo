@@ -1,0 +1,16 @@
+body { margin: 0; overflow: hidden; background-color: #0b0c10; font-family: 'Segoe UI', sans-serif; }
+#info {
+  position: absolute; top: 20px; left: 20px; color: #66fcf1;
+  pointer-events: none; /* 让鼠标穿透 */
+}
+h1 { margin: 0; font-size: 1.5rem; text-transform: uppercase; letter-spacing: 2px; }
+p { color: #c5c6c7; font-size: 0.9rem; }
+.controls {
+  position: absolute; bottom: 30px; left: 50%; transform: translateX(-50%);
+  display: flex; gap: 10px;
+}
+button {
+  background: #45a29e; border: none; padding: 10px 20px; color: #fff;
+  cursor: pointer; font-weight: bold; border-radius: 4px;
+}
+button:hover { background: #66fcf1; color: #0b0c10; }
